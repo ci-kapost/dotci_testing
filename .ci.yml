@@ -1,0 +1,11 @@
+environment:
+  image: 
+    - bokchoy
+
+build:
+  run: 
+   rake: bundle exec rake test --trace
+
+notifications:
+  - email:
+     - drewvanstone@gmail.com 
